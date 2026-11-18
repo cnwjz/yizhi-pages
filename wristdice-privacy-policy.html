@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>《腕上骰子》隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+      color: #1f2933;
+      background: #ffffff;
+      line-height: 1.75;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #ffffff; }
+    main { width: min(100% - 32px, 780px); margin: 0 auto; padding: 40px 0 56px; }
+    h1 { margin: 0 0 12px; color: #111827; font-size: clamp(1.8rem, 6vw, 2.35rem); line-height: 1.3; }
+    h2 { margin: 32px 0 10px; color: #111827; font-size: 1.25rem; line-height: 1.45; }
+    p { margin: 10px 0; }
+    ul { margin: 8px 0 12px; padding-left: 1.5em; }
+    li { margin: 5px 0; }
+    a { color: #245ea8; text-underline-offset: 3px; }
+    .meta { margin: 0 0 28px; color: #52606d; font-size: 0.95rem; }
+    footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid #e5e7eb; color: #667085; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>《腕上骰子》隐私政策</h1>
+    <p class="meta">应用包名：com.cnwjz.yitou.watch　开发者：王景震　生效及最近更新日期：2026-11-18</p>
+
+    <section aria-labelledby="basic-info">
+      <h2 id="basic-info">一、基本信息</h2>
+      <p>《腕上骰子》智能手表应用由王景震开发，配套购买与永久激活同步功能由同开发者名下手机端应用《一掷》（包名：com.cnwjz.yizhi.phone）提供。</p>
+      <p>本政策用于说明《腕上骰子》在提供掷骰交互、购买解锁、权益恢复和设备间同步功能时，可能处理的信息、使用目的以及用户可以行使的权利。</p>
+    </section>
+
+    <section aria-labelledby="watch">
+      <h2 id="watch">二、手表端功能与信息处理</h2>
+      <ul>
+        <li>用户可以轻触手表屏幕或甩动手腕，触发一次随机掷骰。</li>
+        <li>手表端使用加速度传感器识别甩腕动作，并据此判断是否触发投掷；投掷过程通过震动和本地音效提供交互反馈。</li>
+        <li>加速度传感器数据仅用于手表端的本地实时触发判断，不持久化保存，也不会上传给开发者。</li>
+        <li>《腕上骰子》不提供独立账号体系、第三方广告或基于用户行为的用户画像。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="iap">
+      <h2 id="iap">三、配套手机端购买与权益恢复</h2>
+      <p>永久解锁权益通过配套手机端《一掷》内的华为应用内购买服务（IAP Kit）和华为收银台完成（商品标识：yitou.full_unlock）。</p>
+      <p>开发者不直接收集银行卡号、支付密码等支付凭据。为完成购买后的权益交付和后续恢复，配套手机端会根据华为 IAP 返回的必要订单信息校验并保存已验证的永久激活状态。</p>
+    </section>
+
+    <section aria-labelledby="wear-engine">
+      <h2 id="wear-engine">四、Wear Engine 设备同步</h2>
+      <p>配套手机端确认永久激活权益后，会通过华为 Wear Engine 向已配对并安装《腕上骰子》的兼容手表发送永久激活权益消息，手表端接收后保存激活状态并返回确认结果。</p>
+      <p>相关信息仅用于完成设备识别、连接和永久激活权益同步，不用于建立用户画像。</p>
+    </section>
+
+    <section aria-labelledby="background-processing">
+      <h2 id="background-processing">五、静默与后台状态说明</h2>
+      <p>手表端进入后台、息屏或退出后会立即停止加速度传感器订阅，不在后台采集任何加速度数据。在手表应用进程存续期间，华为 Wear Engine 接收能力仅用于接收配套手机端主动发送的永久激活权益消息并更新本地激活状态，不用于广告、用户画像或其他无关目的。</p>
+    </section>
+
+    <section aria-labelledby="local-storage">
+      <h2 id="local-storage">六、本地存储</h2>
+      <p>为支持离线使用与试玩计数，《腕上骰子》在手表本地仅保存：</p>
+      <ul>
+        <li>隐私政策同意状态；</li>
+        <li>免费体验剩余次数及每日免费刷新日期；</li>
+        <li>已同步的永久激活解锁状态。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="collected-information-list">
+      <h2 id="collected-information-list">七、已收集个人信息清单</h2>
+      <p><strong>1. 手表加速度传感器数据</strong></p>
+      <ul>
+        <li>信息种类：三维加速度传感器读数。</li>
+        <li>使用目的：识别甩腕动作并判断是否触发掷骰动画。</li>
+        <li>使用场景：用户在手表前台运行本应用并使用甩腕掷骰功能时。</li>
+        <li>处理/保存方式：仅在手表本地实时计算，不持久化记录、不上传给开发者；切入后台立即停止订阅。</li>
+      </ul>
+      <p><strong>2. Wear Engine 权益同步信息</strong></p>
+      <ul>
+        <li>信息种类：永久激活权益同步指令及处理确认结果。</li>
+        <li>使用目的：接收配套手机端已验证的永久解锁状态。</li>
+        <li>使用场景：用户在配套手机端完成购买或点击同步到手表时。</li>
+        <li>处理/保存方式：通过华为 Wear Engine 在已配对设备间点对点传输，激活布尔状态保存在手表本地存储。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="third-party-sharing-list">
+      <h2 id="third-party-sharing-list">八、第三方共享个人信息清单</h2>
+      <p><strong>服务提供方：华为 Wear Engine（华为终端有限公司）</strong></p>
+      <ul>
+        <li>涉及信息：完成已配对手机与手表之间连接及永久激活权益同步所必需的通信数据。</li>
+        <li>使用目的：在配套手机端与手表端之间同步永久激活状态。</li>
+        <li>共享/交互方式：通过华为系统级 Wear Engine 服务在配对设备间本地通信。</li>
+      </ul>
+      <p>除上述为实现权益同步所必需的华为系统服务交互外，《腕上骰子》不接入任何第三方广告或统计 SDK，不向任何其他第三方共享或出售个人信息。</p>
+    </section>
+
+    <section aria-labelledby="management">
+      <h2 id="management">九、管理您的个人信息与撤回同意</h2>
+      <ul>
+        <li>您可随时在手表应用主界面<strong>左滑</strong>进入隐私政策页面（支持表冠旋钮滚动阅读），点击底部<strong>“撤回并退出”</strong>撤回隐私授权；撤回后应用将停止传感器与同步服务并退出，下次启动时重新征求同意。</li>
+        <li>您可通过手表系统设置清除应用数据或直接卸载《腕上骰子》，删除保存在手表本机的全部数据。</li>
+        <li>如需提出访问、查阅、复制、更正、删除、投诉或其他隐私相关请求，请发送邮件至 <a href="mailto:1974848496@qq.com">1974848496@qq.com</a>，我们将在收到有效请求后 15 个工作日内处理并回复。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="retention">
+      <h2 id="retention">十、信息存储地点及期限</h2>
+      <p>开发者没有自建服务器。隐私同意状态、试玩计数与永久激活状态仅保存在用户手表本机，并在应用数据存续期间保存；清除应用数据或卸载应用后即被删除。</p>
+    </section>
+
+    <section aria-labelledby="minors">
+      <h2 id="minors">十一、未成年人保护</h2>
+      <p>《腕上骰子》不设置独立年龄验证系统。未成年人使用本应用前，应在监护人指导下阅读本政策，并在监护人同意和陪同下使用涉及配套手机端购买或设备同步的功能。</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">十二、联系我们与政策更新</h2>
+      <p>开发者：王景震　联系邮箱：<a href="mailto:1974848496@qq.com">1974848496@qq.com</a>（15 个工作日内回复）。</p>
+      <p>当应用功能或适用规范变化时，我们可能更新本政策并更新页面顶部日期。</p>
+    </section>
+
+    <footer>
+      <p>本网页为纯静态页面，不部署统计、广告或追踪脚本，也不设置 Cookie。</p>
+      <p><a href="wristdice-privacy-rights.html">查看《腕上骰子》隐私权利说明</a></p>
+    </footer>
+  </main>
+</body>
+</html>
